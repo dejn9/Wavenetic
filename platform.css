@@ -1,0 +1,81 @@
+.platform-hero {
+  background: linear-gradient(244.44deg, #082c3a 1.96%, #1b7196 94.99%);
+  height: 850px;
+  padding-top: 233px;
+  padding-bottom: 137px;
+  position: relative;
+}
+.platform-hero::after {
+  content: '';
+  position: absolute;
+  width: 1134px;
+  height: 713px;
+  background: url('/images/platform/hero-bg.png');
+  left: 206px;
+  top: 86px;
+}
+.platform-hero .container {
+  max-width: 1226px;
+  margin-right: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.platform-hero__text {
+  max-width: 493px;
+  color: white;
+}
+.whitelabel {
+  padding: 83px 0;
+  background: #f5f8fb;
+}
+.whitelabel .container,
+.complete-managment .container,
+.smart-managment .container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.whitelabel__text,
+.complete-managment__text,
+.smart-managment__text {
+  max-width: 354px;
+}
+
+.complete-managment {
+  padding: 73px 0;
+}
+
+.smart-managment {
+  padding: 78px 0;
+}
+
+.payments-billing {
+  background: linear-gradient(244.44deg, #082c3a 1.96%, #1b7196 94.99%);
+  border-radius: 50px;
+  width: calc(100% - 100px);
+  margin: 0 auto;
+  padding-top: 140px;
+  padding-bottom: 125px;
+}
+.payments-billing .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.payments-billing__text {
+  max-width: 454px;
+  color: white;
+}
+
+.payments-billing__text h2 {
+  margin-bottom: 16px;
+}
+.payments-billing__text p,
+.payments-billing__text h4 {
+  line-height: 130%;
+  letter-spacing: 0.02em;
+  color: #f5f8fb;
+}

@@ -83,6 +83,7 @@ h4 {
   right: 50px;
   top: 16px;
   padding: 26px;
+  z-index: 2;
 }
 .header .container {
   display: flex;

@@ -1,0 +1,451 @@
+.products-hero {
+  padding-top: 166px;
+  padding-bottom: 100px;
+}
+.products-hero .container {
+  display: flex;
+  justify-content: space-between;
+}
+.products-hero h2 span {
+  position: relative;
+}
+.products-hero h2 span::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background: url('/images/products/hero-line.png');
+  height: 11px;
+  width: 230px;
+}
+.products-hero__image {
+  background: #f5f8fb;
+  border: 1px solid #dddddd;
+  padding: 100px 80px;
+  border-radius: 30px;
+}
+.products-hero__rating {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 24px;
+}
+.products-hero__rating img {
+  margin-right: 15px;
+}
+.products-hero__text {
+  max-width: 566px;
+}
+.products-hero .title {
+  display: flex;
+  align-items: center;
+}
+.products-hero .title img {
+  margin-right: 8px;
+}
+.products-hero__list ul {
+  margin-left: 32px;
+  margin-top: 16px;
+}
+.products-hero__list ul li {
+  margin-bottom: 16px;
+  font-size: 14px;
+  line-height: 143%;
+  color: #517482;
+}
+.products-hero__lists {
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 30px;
+  column-gap: 24px;
+}
+.products-hero h6 {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 130%;
+}
+.ev-box {
+  background: #f5f8fb;
+  padding: 50px 0;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+.ev-box::after {
+  content: '';
+  height: 555px;
+  position: absolute;
+  left: -40px;
+  top: 63px;
+  width: 1480px;
+  background: url('/images/products/ev-box-board-bg.png');
+  z-index: -1;
+  background-repeat: no-repeat;
+}
+.ev-box .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.ev-box .text {
+  max-width: 483px;
+}
+.ev-box .text p {
+  line-height: 130%;
+  letter-spacing: 0.02em;
+  color: #517482;
+  margin-top: 16px;
+}
+.ev-box-balancing {
+}
+.ev-box-balancing__flex {
+  padding: 110px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.ev-box-balancing__flex::after {
+  content: '';
+  position: absolute;
+  top: 64px;
+  left: 144px;
+  width: 933px;
+  height: 433px;
+  background: url('/images/products/ev-box-board-stars.png');
+}
+.ev-box-balancing__image {
+  padding: 50px 40px;
+  background: #f5f8fb;
+  border-radius: 30px;
+}
+.ev-box-balancing__flex .text {
+  max-width: 512px;
+  color: #668593;
+  display: flex;
+  flex-direction: column;
+}
+.ev-box-balancing__flex .text a {
+  margin-left: auto;
+  margin-right: 70px;
+}
+
+.ev-box-balancing__flex .text h2 {
+  color: black;
+}
+.ev-box-balancing__flex .text h2 span {
+  position: relative;
+}
+.ev-box-balancing__flex .text h2 span::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -20px;
+  width: 153px;
+  height: 11px;
+  background: url('/images/products/ev-box-balancing-line.png');
+}
+.ev-box-balancing__flex .text p {
+  margin-top: 40px;
+  font-size: 14px;
+  line-height: 130%;
+  letter-spacing: 0.02em;
+}
+.eviot,
+.evpm {
+  background: #f5f8fb;
+}
+.eviot .container,
+.evpm .container,
+.evmm .container,
+.evpm .container,
+.evcc .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.eviot h2,
+.evpm h2,
+.evmm h2,
+.evcc h2 {
+  margin-bottom: 24px;
+}
+.eviot h4,
+.evpm h4,
+.evmm h4,
+.evcc h4 {
+  line-height: 130%;
+  letter-spacing: 0.02em;
+  color: #668593;
+}
+
+.ev__text ul li {
+  display: flex;
+  align-items: flex-start;
+  font-size: 14px;
+  line-height: 30px;
+  color: #517482;
+}
+.ev__lists {
+  display: flex;
+  justify-content: space-between;
+  max-width: 780px;
+}
+
+.ev__lists ul:first-of-type {
+  max-width: 365px;
+}
+.ev__lists ul:nth-of-type(2) {
+  max-width: 273px;
+  /* margin-left: 100px; */
+}
+.ev__text ul li img {
+  margin-right: 10px;
+  margin-top: 8px;
+}
+.eviot {
+  padding-top: 105px;
+  padding-bottom: 90px;
+}
+.ev-housing-transition .container {
+  display: flex;
+  height: 415px;
+}
+.ev-housing-transition img {
+  width: 656px;
+  object-fit: cover;
+}
+.ev-housing-transition__text {
+  background: linear-gradient(244.44deg, #082c3a 1.96%, #1b7196 94.99%);
+  border-radius: 30px 0px 0px 30px;
+  padding-top: 253px;
+  padding-left: 50px;
+  position: relative;
+}
+.ev-housing-transition__text::after {
+  content: '';
+  position: absolute;
+  left: -20px;
+  top: 0px;
+  width: 936px;
+  height: 668px;
+  background: url('/images/products/ev-housing-transition-bg.png');
+  background-repeat: no-repeat;
+}
+.ev-housing-transition__text h2 {
+  color: white;
+}
+.products-public-station {
+  background: #f5f8fb;
+  padding: 80px 0;
+}
+
+.products-wallbox-station {
+  padding: 80px 0;
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+}
+.products-wallbox-station::after {
+  content: '';
+  position: absolute;
+  width: 379px;
+  height: 379px;
+  left: 1108px;
+  top: 36px;
+  background: #f5f8fb;
+  border-radius: 50%;
+  z-index: -1;
+}
+.products-wallbox-station .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.products-wallbox-station .text {
+  max-width: 483px;
+}
+.products-wallbox-station h4,
+.products-wallbox-station p {
+  color: #668593;
+}
+.products-wallbox-station h2 {
+  margin-bottom: 16px;
+}
+.products-wallbox-station p {
+  margin-bottom: 55px;
+  font-size: 14px;
+  line-height: 18px;
+  color: #668593;
+}
+
+.products-public-station {
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+}
+.products-public-station::before {
+  content: '';
+  position: absolute;
+  width: 692px;
+  height: 692px;
+  left: -130px;
+  top: 157px;
+  z-index: -1;
+  background: linear-gradient(
+    222.33deg,
+    rgba(232, 243, 255, 0.7) 24.99%,
+    rgba(204, 230, 255, 0.7) 101.17%
+  );
+  border-radius: 50%;
+}
+.products-public-station::after {
+  content: '';
+  top: 64px;
+  left: 185px;
+  position: absolute;
+  width: 1019px;
+  height: 486px;
+  background: url('/images/products/public-charging-station-stars.png');
+}
+.products-public-station .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.products-public-station__text {
+  max-width: 454px;
+}
+
+.products-public-station__text h2 {
+  max-width: 370px;
+  margin-bottom: 16px;
+}
+
+.products-public-station__text p {
+  font-size: 14px;
+  line-height: 18px;
+  color: #668593;
+  margin-bottom: 40px;
+}
+
+.evcc {
+  padding: 100px 0;
+}
+
+.evcc .ev__text {
+  max-width: 761px;
+}
+.evcc .ev__lists {
+  width: 100%;
+  min-width: 761px;
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+.evpm {
+  padding: 85px 0 75px 0;
+}
+.evpm .ev__text {
+  max-width: 610px;
+}
+
+.evmm {
+  padding: 80px 0 90px 0;
+}
+
+.evcc,
+.evpm,
+.eviot {
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+}
+
+.evcc::before {
+  content: '';
+  position: absolute;
+  left: 517px;
+  top: 393px;
+  background: url('/images/products/diamond.png');
+  width: 66px;
+  height: 70px;
+}
+.evcc::after {
+  content: '';
+  position: absolute;
+  left: 88px;
+  top: 95px;
+  width: 1158px;
+  height: 372px;
+  background: url('/images/products/evcc-after.png');
+  z-index: -1;
+}
+
+.evpm::after {
+  content: '';
+  position: absolute;
+  right: 164px;
+  top: 40px;
+  width: 608px;
+  height: 444px;
+  background: url('/images/products/evpm-after.png');
+  z-index: -1;
+}
+
+.eviot::before {
+  content: '';
+  position: absolute;
+  right: 60px;
+  top: 53px;
+  height: 425px;
+  width: 1156px;
+  background: url('/images/products/eviot-stars.png');
+}
+
+.eviot::after {
+  content: '';
+  position: absolute;
+  top: -103px;
+  right: -172px;
+  background: rgba(232, 244, 255, 0.6);
+  border-radius: 50%;
+  height: 556px;
+  width: 556px;
+  z-index: -1;
+}
+
+.evpm h2,
+.eviot h2,
+.products-wallbox-station h2 span {
+  position: relative;
+}
+.evpm h2::after,
+.eviot h2::after,
+.products-wallbox-station h2 span::after {
+  content: '';
+  position: absolute;
+}
+
+.evpm h2::after {
+  background: url('/images/products/evpm-line.png');
+  width: 176px;
+  height: 11px;
+  left: -24px;
+  bottom: -10px;
+}
+.eviot h2::after {
+  background: url('/images/products/eviot-line.png');
+  width: 224px;
+  height: 11px;
+  left: -32px;
+  bottom: -10px;
+}
+
+.products-wallbox-station h2 span::after {
+  width: 222px;
+  height: 11px;
+  left: -30px;
+  bottom: -10px;
+  background: url('/images/products/wallbox-line.png');
+}

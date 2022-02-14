@@ -1,0 +1,108 @@
+.about-us__hero {
+  min-height: 850px;
+  background: url('/images/about-us/hero-image.png');
+  background-repeat: no-repeat;
+  background-position-x: right;
+  padding: 150px 0 60px 0;
+}
+.about-us__text {
+  background: #06384d;
+  color: white;
+  opacity: 0.8;
+  max-width: 992px;
+  border-radius: 30px;
+  padding: 105px 165px 75px 165px;
+}
+.about-us__hero h2 {
+  margin-bottom: 24px;
+  color: #11dc62;
+  position: relative;
+}
+.about-us__hero h2::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  width: 142px;
+  height: 11.3px;
+  background: url('/images/about-us/about-hero-line.png');
+}
+.about-us__hero p {
+  margin-bottom: 90px;
+  font-size: 26px;
+  line-height: 130%;
+  letter-spacing: 0.02em;
+}
+.about-us__hero a {
+  color: white;
+  background: #11dc62;
+  box-shadow: -41.0478px 61.5717px 83px rgba(37, 214, 105, 0.23),
+    -24.169px 36.2534px 43.2928px rgba(37, 214, 105, 0.166336),
+    -12.4129px 18.6193px 20.3184px rgba(37, 214, 105, 0.129168),
+    -4.99141px 7.48712px 8.8976px rgba(37, 214, 105, 0.100832),
+    -1.1165px 1.67475px 3.8512px rgba(37, 214, 105, 0.063664);
+  border-radius: 16px;
+  padding: 15px 46px;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.team {
+  background: url('/images/about-us/our-team-bg.png');
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: 184px;
+}
+.team .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 125px 0;
+}
+.team__images {
+  max-width: 637px;
+  width: 100%;
+  position: relative;
+  height: 634px;
+}
+.team__images img:nth-of-type(2) {
+  position: absolute;
+  top: 195px;
+  z-index: 2;
+  right: 0;
+}
+
+.team__images img:nth-of-type(3) {
+  position: absolute;
+  left: 70px;
+  top: 370px;
+}
+.team__text {
+  max-width: 404px;
+}
+.team__text h4 {
+  color: #668593;
+  line-height: 130%;
+  letter-spacing: 0.02px;
+  font-weight: 600;
+}
+.team__text h2 {
+  margin-bottom: 40px;
+  position: relative;
+}
+.team__text h2::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background: url('/images/about-us/our-team-line.png');
+  width: 153px;
+  height: 11px;
+}
+
+.team__text p {
+  line-height: 130%;
+  letter-spacing: 0.02em;
+  color: #517482;
+}

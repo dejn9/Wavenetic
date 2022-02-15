@@ -152,3 +152,77 @@
 .contact-us ul li img {
   margin-right: 8px;
 }
+@media only screen and (max-width: 1200px) {
+  .contact-us__image {
+    margin-left: 30px;
+  }
+  .contact-us ul li {
+    align-items: flex-start;
+  }
+  .team__text {
+    margin-left: 30px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .contact-us__image {
+    max-width: 350px;
+  }
+  .about-us__hero img {
+    max-width: 100%;
+  }
+  .team .container {
+    flex-direction: column-reverse;
+  }
+  .team__text {
+    margin-left: 0;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .contact-us .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-us__image {
+    margin-left: 0;
+    max-width: 100%;
+    margin-top: 50px;
+  }
+  .team__images {
+    max-width: 100%;
+  }
+  .team {
+    margin-top: 100px;
+  }
+  .team .container {
+    padding: 50px 0;
+  }
+  .contact-us {
+    padding-top: 0;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .contact-us ul {
+    margin-left: 0;
+  }
+  .team__images {
+    max-height: 450px;
+  }
+  .team__images img:first-of-type {
+    max-width: 90%;
+  }
+  .team__images img:nth-of-type(2) {
+    max-width: 250px;
+    top: 150px;
+  }
+  .team__images img:nth-of-type(3) {
+    max-width: 70%;
+    top: 200px;
+    left: 0;
+  }
+  .contact-us::after {
+    left: 80%;
+    top: 100px;
+  }
+}

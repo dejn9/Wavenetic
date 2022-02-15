@@ -120,18 +120,16 @@
   border-radius: 30px;
 }
 .ev-box-balancing__flex .text {
-  max-width: 512px;
+  max-width: 454px;
   color: #668593;
   display: flex;
   flex-direction: column;
 }
 .ev-box-balancing__flex .text a {
-  margin-left: auto;
-  margin-right: 70px;
 }
 
 .ev-box-balancing__flex .text h2 {
-  color: black;
+  color: #06384d;
 }
 .ev-box-balancing__flex .text h2 span {
   position: relative;
@@ -140,13 +138,13 @@
   content: '';
   position: absolute;
   left: 0;
-  bottom: -20px;
+  bottom: -10px;
   width: 153px;
   height: 11px;
   background: url('/images/products/ev-box-balancing-line.png');
 }
 .ev-box-balancing__flex .text p {
-  margin-top: 40px;
+  margin-top: 16px;
   font-size: 14px;
   line-height: 130%;
   letter-spacing: 0.02em;

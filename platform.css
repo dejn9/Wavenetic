@@ -25,9 +25,45 @@
   max-width: 493px;
   color: white;
 }
+.platform-hero h2 span {
+  position: relative;
+}
+.platform-hero h2 span::after {
+  content: '';
+  position: absolute;
+  left: -10px;
+  bottom: -10px;
+  width: 280px;
+  height: 12px;
+  background: url('/images/platform/platfrom-hero-line.png');
+}
 .whitelabel {
   padding: 83px 0;
   background: #f5f8fb;
+  position: relative;
+}
+.whitelabel h2 {
+  position: relative;
+  margin-bottom: 36px;
+}
+.whitelabel h2::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background: url('/images/platform/whitelabel-line.png');
+  width: 168px;
+  height: 12px;
+}
+.whitelabel::before {
+  content: '';
+  position: absolute;
+  left: -35px;
+  top: 68px;
+  background: url('/images/platform/whitelabel-bg.png');
+  height: 660px;
+  width: 1480px;
+  background-repeat: no-repeat;
 }
 .whitelabel .container,
 .complete-managment .container,
@@ -35,6 +71,8 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  position: relative;
+  z-index: 2;
 }
 
 .whitelabel__text,
@@ -45,10 +83,80 @@
 
 .complete-managment {
   padding: 73px 0;
+  position: relative;
 }
-
+.complete-managment::before {
+  content: '';
+  position: absolute;
+  left: 56px;
+  top: 376px;
+  width: 66px;
+  height: 70px;
+  background: url('/images/platform/diamond.png');
+}
+.complete-managment::after {
+  content: '';
+  position: absolute;
+  left: 52%;
+  top: 50px;
+  width: 43px;
+  height: 46px;
+  background: url('/images/platform/diamond-sm.png');
+  filter: blur(3px);
+  mix-blend-mode: screen;
+}
+.complete-managment h2,
+.complete-managment h2 span,
+.smart-managment h2,
+.smart-managment h2 span {
+  background: linear-gradient(to left, #082c3a 0%, #1b7196 100%);
+  display: inline-block;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.complete-managment h2 span,
+.smart-managment h2 span {
+  position: relative;
+  color: unset;
+}
+.complete-managment h2 span::after,
+.smart-managment h2 span::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background: url('/images/platform/complete-managment-line.png');
+  width: 142px;
+  height: 13px;
+}
+.complete-managment h4 {
+  color: #668593;
+  font-weight: 600;
+}
+.complete-managment p {
+  font-size: 18px;
+  line-height: 130%;
+  color: #517482;
+  margin-top: 16px;
+}
 .smart-managment {
-  padding: 78px 0;
+  padding: 103px 0;
+  position: relative;
+  overflow: hidden;
+}
+.smart-managment::before {
+  content: '';
+  position: absolute;
+  left: -223px;
+  top: 255px;
+  width: 692px;
+  height: 692px;
+  background: linear-gradient(
+    222.33deg,
+    rgba(232, 243, 255, 0.7) 24.99%,
+    rgba(204, 230, 255, 0.7) 101.17%
+  );
+  border-radius: 50%;
 }
 
 .payments-billing {
@@ -56,8 +164,18 @@
   border-radius: 50px;
   width: calc(100% - 100px);
   margin: 0 auto;
-  padding-top: 140px;
-  padding-bottom: 125px;
+  padding: 130px 0 120px 0;
+  position: relative;
+}
+.payments-billing::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0px;
+  width: 1420px;
+  height: 800px;
+  background: url('/images/platform/payments-billing-bg.png');
+  background-repeat: no-repeat;
 }
 .payments-billing .container {
   display: flex;

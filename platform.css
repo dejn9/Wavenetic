@@ -8,10 +8,10 @@
 .platform-hero::after {
   content: '';
   position: absolute;
-  width: 1134px;
+  width: 78%;
   height: 713px;
   background: url('/images/platform/hero-bg.png');
-  left: 206px;
+  left: 14%;
   top: 86px;
 }
 .platform-hero .container {
@@ -41,6 +41,7 @@
   padding: 83px 0;
   background: #f5f8fb;
   position: relative;
+  overflow: hidden;
 }
 .whitelabel h2 {
   position: relative;
@@ -64,6 +65,7 @@
   height: 660px;
   width: 1480px;
   background-repeat: no-repeat;
+  max-width: 100%;
 }
 .whitelabel .container,
 .complete-managment .container,
@@ -170,7 +172,7 @@
 .payments-billing::before {
   content: '';
   position: absolute;
-  left: 0;
+  left: 30px;
   top: 0px;
   width: 1420px;
   height: 800px;
@@ -196,4 +198,69 @@
   line-height: 130%;
   letter-spacing: 0.02em;
   color: #f5f8fb;
+}
+@media only screen and (max-width: 1366px) {
+  .platform-mobile-app__flex::after {
+    right: 50px;
+  }
+  .platform-hero .container {
+    max-width: calc(100% - 30px);
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .complete-managment .container,
+  .smart-managment .container {
+    flex-direction: column-reverse;
+  }
+  .whitelabel .container {
+    flex-direction: column;
+  }
+  .whitelabel img,
+  .complete-managment img,
+  .smart-managment img {
+    margin-top: 50px;
+  }
+  .platform-hero .container {
+    flex-direction: column;
+  }
+  .platform-hero__text {
+    margin-bottom: 130px;
+    max-width: 100%;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .platform-mobile-app__flex {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 30px;
+    row-gap: 30px;
+  }
+
+  .platform-mobile-app__box {
+    width: 100%;
+  }
+  .platform-hero__images img {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .complete-managment__text,
+  .smart-managment__text,
+  .whitelabel__text {
+    align-self: flex-start;
+    max-width: 100%;
+  }
+  .complete-managment img,
+  .smart-managment img,
+  .whitelabel img {
+    max-width: 100%;
+  }
+  .platform-mobile-app__flex {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
